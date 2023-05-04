@@ -2,13 +2,14 @@ import Config
 
 # Configure your database
 config :todoRest, TodoRest.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "amy",
+  password: "2297",
   hostname: "localhost",
-  database: "todorest_dev",
+  database: "lesson_elixir",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+  pool_size: 10,
+  port: 5432
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
