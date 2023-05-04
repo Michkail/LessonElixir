@@ -1,4 +1,3 @@
 # Installation
 
-### on MacOS
-#### brew install elixir
+### brew install elixir
